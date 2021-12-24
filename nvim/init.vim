@@ -77,7 +77,7 @@ set number                                              " enable numbers on the 
 set relativenumber                                      " current line is 0
 set showtabline=0                                       " always show tabline
 set so=8                                                " scrolloff
-set spellang="pt_br"                                    " default language
+set spelllang="pt_br"                                    " default language
 set splitbelow                                          " open horizontal split to the bottom
 set splitright                                          " open vertical split to the right
 set tabstop=4 softtabstop=4 shiftwidth=4 autoindent     " tab width

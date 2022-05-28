@@ -13,7 +13,8 @@ endif
 call plug#begin('~/.vim/bundle/')
 
 Plug 'tpope/vim-surround'
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'arcticicestudio/nord-vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -56,7 +57,7 @@ let g:airline_theme='tomorrow'
 " >>> VIM  DEFAULT'S CONFIG <<< "
 
 " reasonable defaults
-autocmd vimenter * ++nested colorscheme gruvbox         " gruvbox theme
+autocmd vimenter * ++nested colorscheme nord            " nord theme
 set background=dark                                     " dark background
 set backspace=indent,eol,start                          " sensible backspacing
 set conceallevel=2                                      " set this so we wont break indentation plugin
@@ -77,11 +78,11 @@ set number                                              " enable numbers on the 
 set relativenumber                                      " current line is 0
 set showtabline=0                                       " always show tabline
 set so=8                                                " scrolloff
-set spelllang="pt_br"                                    " default language
+set spelllang="pt_br"                                   " default language
 set splitbelow                                          " open horizontal split to the bottom
 set splitright                                          " open vertical split to the right
 set tabstop=4 softtabstop=4 shiftwidth=4 autoindent     " tab width
-set termguicolors                                       " opaque bg
+" set termguicolors                                       " opaque bg
 set title                                               " tab title as file name
 set tw=90                                               " auto wrap lines that are longer than that
 set undodir=/tmp                                        " undo temp file directory
